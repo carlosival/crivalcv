@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Carlos Martínez Ival | Software Engineer</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    background:#fafafa;
+    color:#222;
+    line-height:1.7;
+}
+
+.container{
+    width:min(1000px,90%);
+    margin:auto;
+}
+
+header{
+    padding:90px 0;
+}
+
+h1{
+    font-size:3rem;
+    line-height:1.1;
+    margin-bottom:20px;
+}
+
+.subtitle{
+    font-size:1.35rem;
+    color:#666;
+    margin-bottom:30px;
+}
+
+p{
+    color:#555;
+}
+
+.buttons{
+    margin-top:40px;
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.btn{
+    text-decoration:none;
+    padding:14px 24px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.2s;
+}
+
+.primary{
+    background:#111;
+    color:white;
+}
+
+.primary:hover{
+    background:#333;
+}
+
+.secondary{
+    border:1px solid #ccc;
+    color:#222;
+}
+
+section{
+    padding:70px 0;
+}
+
+h2{
+    margin-bottom:25px;
+    font-size:2rem;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:24px;
+    border-radius:12px;
+    box-shadow:0 8px 25px rgba(0,0,0,.05);
+}
+
+.card h3{
+    margin-bottom:12px;
+}
+
+.skills{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.skill{
+    padding:8px 14px;
+    border-radius:30px;
+    background:#efefef;
+    font-size:.9rem;
+}
+
+.timeline{
+    border-left:2px solid #ddd;
+    padding-left:25px;
+}
+
+.item{
+    margin-bottom:35px;
+}
+
+.item h3{
+    margin-bottom:6px;
+}
+
+.item span{
+    color:#777;
+    font-size:.9rem;
+}
+
+footer{
+    text-align:center;
+    padding:60px 20px;
+    color:#777;
+    border-top:1px solid #eee;
+}
+
+@media(max-width:700px){
+
+h1{
+    font-size:2.2rem;
+}
+
+.subtitle{
+    font-size:1.1rem;
+}
+
+}
+</style>
+
+</head>
+<body>
+
+<header>
+<div class="container">
+
+<h1>Carlos Martínez Ival</h1>
+
+<p class="subtitle">
+Ingeniero de Software especializado en Backend, Arquitectura Cloud e Inteligencia Artificial.
+</p>
+
+<p>
+Más de ocho años desarrollando aplicaciones empresariales y plataformas escalables.
+Me apasiona construir software mantenible, diseñar arquitecturas robustas y resolver
+problemas de negocio mediante tecnología.
+</p>
+
+<div class="buttons">
+<a href="#experiencia" class="btn primary">Ver experiencia</a>
+<a href="#contacto" class="btn secondary">Contacto</a>
+</div>
+
+</div>
+</header>
+
+<section>
+
+<div class="container">
+
+<h2>Sobre mí</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Arquitectura</h3>
+<p>
+No solo desarrollo funcionalidades. Diseño sistemas pensando en su evolución,
+escalabilidad y mantenibilidad a largo plazo.
+</p>
+</div>
+
+<div class="card">
+<h3>Backend</h3>
+<p>
+Especializado en Python, Node.js, NestJS y FastAPI para construir APIs y servicios
+de alto rendimiento.
+</p>
+</div>
+
+<div class="card">
+<h3>Inteligencia Artificial</h3>
+<p>
+Desarrollo soluciones basadas en LLMs, RAG, agentes inteligentes y automatización
+mediante IA para entornos de producción.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>Tecnologías</h2>
+
+<div class="skills">
+
+<div class="skill">Python</div>
+<div class="skill">TypeScript</div>
+<div class="skill">Node.js</div>
+<div class="skill">NestJS</div>
+<div class="skill">FastAPI</div>
+<div class="skill">AWS</div>
+<div class="skill">Docker</div>
+<div class="skill">GitHub Actions</div>
+<div class="skill">PostgreSQL</div>
+<div class="skill">MongoDB</div>
+<div class="skill">Elasticsearch</div>
+<div class="skill">LangChain</div>
+<div class="skill">LLMs</div>
+<div class="skill">RAG</div>
+<div class="skill">Agentic AI</div>
+<div class="skill">React</div>
+<div class="skill">Vue</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="experiencia">
+
+<div class="container">
+
+<h2>Experiencia</h2>
+
+<div class="timeline">
+
+<div class="item">
+<h3>Senior Software Engineer · Galaita Labs</h3>
+<span>2024 - Actualidad</span>
+<p>
+Desarrollo de soluciones de Inteligencia Artificial para producción,
+agentes inteligentes, OCR, sistemas RAG, despliegues self-hosted
+e integración de modelos LLM.
+</p>
+</div>
+
+<div class="item">
+<h3>Senior Backend Developer · Unidad Editorial</h3>
+<p>
+Rediseño del backend utilizando NestJS y Arquitectura Hexagonal para la
+plataforma editorial utilizada por Marca y El Mundo, mejorando la calidad
+del software y la cobertura de testing.
+</p>
+</div>
+
+<div class="item">
+<h3>Senior Full Stack Developer · Evvo Home Europe</h3>
+<p>
+Diseño técnico completo de una aplicación Shopify y desarrollo del backend.
+Uno de los proyectos incrementó aproximadamente un 15% las ventas mediante
+una solución de financiación integrada.
+</p>
+</div>
+
+<div class="item">
+<h3>Backend Developer · Overseas Teach Services</h3>
+<p>
+Diseño e implementación del backend para una aplicación móvil con
+autenticación, geolocalización, pagos online y despliegue sobre AWS.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>Proyecto Personal</h2>
+
+<div class="card">
+
+<h3>Plataforma SaaS para Agentes de Voz Inteligentes</h3>
+
+<p>
+Actualmente desarrollo una plataforma para crear, desplegar y gestionar agentes
+de voz impulsados por Inteligencia Artificial, integrando LLMs, workflows,
+memoria, herramientas, bases de conocimiento, observabilidad y arquitectura
+basada en microservicios.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<div class="container">
+
+<h2>Mi forma de trabajar</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Visión global</h3>
+<p>Entiendo el ciclo completo del desarrollo de software, desde el diseño hasta el despliegue.</p>
+</div>
+
+<div class="card">
+<h3>Calidad</h3>
+<p>Automatización, testing, integración continua y código limpio como parte del proceso.</p>
+</div>
+
+<div class="card">
+<h3>Negocio primero</h3>
+<p>Antes de escribir código, intento comprender el problema que realmente hay que resolver.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<footer id="contacto">
+
+<h2>¿Hablamos?</h2>
+
+<p>
+Disponible para posiciones Senior Backend, Software Engineer,
+Technical Lead e Inteligencia Artificial.
+</p>
+
+<p style="margin-top:20px;">
+LinkedIn · GitHub · Email
+</p>
+
+</footer>
+
+</body>
+</html>
